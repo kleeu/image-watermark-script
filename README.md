@@ -1,0 +1,2 @@
+- `watermark_embed.py`：为 JPEG、PNG、WebP、TIFF、HEIC/HEIF 等编码格式的图像添加文字水印，同时在其频域内添加相同的水印。输出 `xxx_watermarked.png`
+- `watermark_extract.py`：从上面输出的带水印图像中提取频域水印。如果显式指定 `--mode fft`，则将同时生成复数频谱，借此可以用 `--mode ifft` 重新恢复图像。
